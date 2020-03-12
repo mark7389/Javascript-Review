@@ -77,6 +77,51 @@ source [MDN](developer.mozilla.org)
   while (condition)
 ```
 
+### conditionals
+- `if`, `else if`, `else`
+```javascript
+  if (conditon) {
+    // when condition is true I execute code here
+  }
+
+  if (condition1) {
+    // when condition1 is true I execute
+  } else if (condtion2) {
+    // else when condition2 is true I execute
+  } else {
+    // I always execute if neither 1 or 2 are true
+  }
+
+  // can just be if else
+  if (condition) {
+    // when condition is true I execute
+  } else {
+    // when condition is false I execute
+  }
+```
+
+## comparison operators
+ - `==` value equal
+ - `===` value and type equal
+ - `>` greater than
+ - `<` less than
+ - `>=` greater than or equal
+ - `<=` less than or equal
+ - `!=` not equal
+ - `!==` 	not equal value or not equal type
+
+## logical operators
+- `&&` AND
+- `||` or
+
+## arithmetic operators
+- `+`, `-`, `*`, `/`
+
+## assignment operators
+- `=`
+- `+=`
+- `-=`
+
 ### Activities:
 ---
 ```javascript
