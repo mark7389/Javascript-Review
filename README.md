@@ -33,6 +33,50 @@
 
 source [MDN](developer.mozilla.org)
 
+### loops
+
+## For Loop
+- syntax
+```javascript
+  for (var index = 0; index < value; index++) {
+    // as long as index is less than value I will execute the code here
+  }
+```
+
+## while loop
+- syntax
+
+```javascript
+  var text = ""
+  var i = 0
+  while(i < 5) {
+    text += i + ", "
+    i++
+  }
+
+  while(condition) {
+    // as long as condition is true I will execute code in here
+  }
+```
+
+## do while loop
+
+```javascript
+  var text = "";
+  var i = 0;
+  do {
+    text += "The number is " + i;
+    i++;
+  }
+  while (i < 5);
+
+  do {
+    // as long as the condition below is true I will execute code here
+
+  }
+  while (condition)
+```
+
 ### Activities:
 ---
 ```javascript
